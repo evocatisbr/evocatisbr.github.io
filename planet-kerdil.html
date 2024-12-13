@@ -1,0 +1,350 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tata Surya</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="shortcut icon" href="fig/web-icon.png">
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="style.css">
+  <style>
+    /* Custom styling */
+    .card {
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(184, 110, 110, 0.1);
+      margin-bottom: 30px;
+    }
+
+    .card img {
+      object-fit: cover;
+      height: 250px;
+    }
+
+    .card-body {
+      padding: 25px;
+      background-color: #050505;
+    }
+
+    .card-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #007bff;
+    }
+
+    .card-text {
+      font-size: 1rem;
+      color: #fcfbfb;
+    }
+
+    .header-title {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .lead {
+      font-size: 1.2rem;
+      color: #ddd;
+    }
+
+    footer {
+      background-color: #343a40;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    .card-img-top {
+  width: 250px;  
+  height: auto;  
+  object-fit: cover; 
+}
+
+.card-body {
+  flex: 1;
+}
+
+.card {
+  display: flex;
+  flex-direction: row; 
+  margin-bottom: 20px; 
+}
+
+  </style>
+</head>
+
+<body class="text-light">
+  <video class="video-background" autoplay muted loop>
+		<source src="fig/videoplayback2.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+	<div class="video-overlay"></div>
+	<div class="container-fluid content px-0 py-0">
+		<nav id="navbar" class="navbar navbar-expand-lg sticky-top">
+			<div class="container-fluid">
+				<a href="index.html" target="_top">
+					<img class="navbar-brand text-light logo-gimang" alt="logo" src="fig/logo-img.png">
+					<img class="navbar-brand text-light logo-gimang" alt="logo" src="fig/logo-text.png">
+				</a>
+
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon text-light"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+						
+						<li class="nav-item">
+							<a class="nav-link text-light" href="index.html#matahari">☀️Matahari</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-light" href="planet-kerdil.html">🌕Planet Kerdil</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-light" href="#" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								🪐Planet
+							</a>
+							<ul class="dropdown-menu warna-nav">
+								<li><a class="dropdown-item text-light hoperr" href="planet/Merkurius.html">Merkurius</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="planet/venus.html">Venus</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="planet/bumi.html">Bumi</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="planet/mars.html">Mars</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="planet/jupiter.html">Jupiter</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="planet/saturnus.html">Saturnus</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="planet/uranus.html">Uranus</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="planet/neptunus.html">Neptunus</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-light" href="#" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								☄️Benda Langit
+							</a>
+							<ul class="dropdown-menu warna-nav">
+								<li><a class="dropdown-item text-light hoperr" href="asteroid.html">Asteroid</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="komet.html">Komet</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="meteorid.html">Meteorid</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<header class="bg-dark text-white text-center py-5 bg-opacity-50">
+      <h1 class="header-title">Planet Kerdil di Tata Surya</h1>
+      <p class="lead">Mengenal lebih dekat planet kerdil yang ada di tata surya kita.</p>
+    </header>
+  
+    <main class="container my-5">
+      <div class="row g-4">
+        <!-- Pluto -->
+        <div class="col-md-12">
+          <div class="card flex-row">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Pluto-01_Stern_03_Pluto_Color_TXT.jpg/800px-Pluto-01_Stern_03_Pluto_Color_TXT.jpg" alt="Pluto" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Pluto</h5>
+              <p class="card-text"><strong>Lokasi:</strong> Sabuk Kuiper</p>
+              <p class="card-text">Pluto merupakan planet katai terbesar dan bermassa terbesar kedua di Tata Surya dan benda terbesar kesembilan dan bermassa terbesar kesepuluh yang mengorbit Matahari secara langsung. Pluto memiliki orbit eksentris dan miring dengan jarak 30 sampai 49 satuan astronomi (4,4–7,3 miliar km) dari Matahari.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Ceres -->
+        <div class="col-md-12">
+          <div class="card flex-row">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Ceres_-_RC3_-_Haulani_Crater_%2822381131691%29_%28cropped%29.jpg/220px-Ceres_-_RC3_-_Haulani_Crater_%2822381131691%29_%28cropped%29.jpg" alt="Ceres" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Ceres</h5>
+              <p class="card-text"><strong>Lokasi:</strong> Sabuk asteroid antara Mars dan Jupiter</p>
+              <p class="card-text">Ceres adalah planet kerdil yang terletak di sabuk asteroid antara planet Mars dan Jupiter.
+                                  Ceres memiliki komposisi yang sebagian besar terdiri dari batuan dan es, dan permukaannya diselimuti lapisan es air yang mungkin mengandung air cair di bawahnya. 
+                                  Ceres juga memiliki sejumlah fitur menarik, termasuk beberapa kawah besar dan mungkin tanda adanya aktivitas geologis pada masa lalu. </p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Eris -->
+        <div class="col-md-12">
+          <div class="card flex-row">
+            <img src="https://i.pinimg.com/236x/12/0c/71/120c716e26ea7551b676230d7e4685c9.jpg" alt="Eris" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Eris</h5>
+              <p class="card-text"><strong>Lokasi:</strong> Tepi tata surya (sabuk Kuiper)</p>
+              <p class="card-text">Eris memiliki ukuran hampir sama dengan Pluto dan memiliki satu satelit bernama Dysnomia. Eris adalah salah satu planet kerdil yang terletak di sabuk Kuiper, sebuah wilayah yang terletak di luar orbit planet Neptunus, jauh dari Bumi. 
+                                   Eris adalah salah satu objek yang menarik perhatian para astronom, baik karena ukurannya yang besar untuk sebuah planet kerdil maupun karena status orbitnya yang eksentrik. Peneliti terus mempelajari objek ini untuk memahami lebih jauh
+                                  tentang dunia yang terletak di luar batas Tata Surya.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Haumea -->
+        <div class="col-md-12">
+          <div class="card flex-row">
+            <img src="https://i.pinimg.com/736x/da/ff/8e/daff8e906b88712f0b9f9abfcecb40cb.jpg" alt="Haumea" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Haumea</h5>
+              <p class="card-text"><strong>Lokasi:</strong> Sabuk Kuiper</p>
+              <p class="card-text">Haumea adalah planet kerdil yang sangat menarik dengan bentuk lonjong akibat rotasi cepat, cincin, dan satelit alami yang menambah keunikannya. Meskipun berada jauh dari Matahari, Haumea tetap menjadi objek yang penuh misteri bagi para astronom, yang terus berusaha mengungkapkan lebih banyak tentangnya.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Makemake -->
+        <div class="col-md-12">
+          <div class="card flex-row">
+            <img src="https://i.pinimg.com/736x/2a/2f/03/2a2f032e150c00bb9f848768da703614.jpg" alt="Makemake" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Makemake</h5>
+              <p class="card-text"><strong>Lokasi:</strong> Sabuk Kuiper</p>
+              <p class="card-text">Makemake adalah planet kerdil yang terletak di sabuk Kuiper dan ditemukan pada tahun 2005. Namanya berasal dari mitologi Rapa Nui, dan permukaannya diselimuti metana beku.
+                                  dengan permukaan yang tertutup es metana dan suhu yang sangat rendah. Dengan satelit kecil dan komposisi yang sebagian besar terdiri dari es,
+                                   . Sebagai planet kerdil, Makemake berbagi banyak kesamaan dengan objek-objek lain di sabuk Kuiper, seperti Pluto, namun tetap memiliki karakteristik unik yang membuatnya berbeda.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+	</div>
+	</div>
+
+	<footer class="text-white text-center cs-1">
+        <div class="py-4">
+            <div class="container">
+                <div class="row mb-3">
+                    <div class="col-xl-4">
+                        <h5 class="text-uppercase">Cosmic Team</h5>
+                        <p class="small text-light">kelompok yang berfokus pada pembuatan website edukasi mengenai tata surya.
+                            Bahasa yang digunakan dalam pembuatan website ini meliputi HTML, CSS, dan JavaScript untuk
+                            menambahkan interaktivitas.</p>
+                    </div>
+
+                    <div class="col-xl-8">
+                        <h5 class="text-uppercase">Kontak</h5>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-4 col-6">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <b class="text-decoration-underline">
+                                            Evocati Sibarani
+                                        </b>
+                                        <div class="row mt-3">
+                                            <div class="col-3 ">
+                                                <img class="rounded-3 w-100"
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+                                                    alt="Gambar">
+                                            </div>
+                                            <div class="col-9 d-flex align-items-center ps-0">
+                                                <b>+62 823-8521-3040</b>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-3">
+                                                <img class="rounded-3 w-100"
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png"
+                                                    alt="Gambar">
+                                            </div>
+                                            <div class="col-9 d-flex align-items-center ps-0">
+                                                <b>@evocati_sbr</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-6">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <b class="text-decoration-underline">
+                                            Ririn Avelia
+                                        </b>
+                                        <div class="row mt-3">
+                                            <div class="col-3 ">
+                                                <img class="rounded-3 w-100"
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+                                                    alt="Gambar">
+                                            </div>
+                                            <div class="col-9 d-flex align-items-center ps-0">
+                                                <b>+62 823-9065-3179</b>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-3">
+                                                <img class="rounded-3 w-100"
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png"
+                                                    alt="Gambar">
+                                            </div>
+                                            <div class="col-9 d-flex align-items-center ps-0">
+                                                <b>@ririnavelia</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-6 mt-4 mt-md-0">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <b class="text-decoration-underline">
+                                            Winda Fentika
+                                        </b>
+                                        <div class="row mt-3">
+                                            <div class="col-3 ">
+                                                <img class="rounded-3 w-100"
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+                                                    alt="Gambar">
+                                            </div>
+                                            <div class="col-9 d-flex align-items-center ps-0">
+                                                <b>+62 838-7463-0869</b>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-3">
+                                                <img class="rounded-3 w-100"
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png"
+                                                    alt="Gambar">
+                                            </div>
+                                            <div class="col-9 d-flex align-items-center ps-0">
+                                                <b>@wndfntk</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <hr class="bg-light">
+                <div class="mb-2">
+                    <p class="mb-1 text-light">&copy; 2024 Cosmic Team</p>
+                    <p class="mb-1 text-light">Dibuat oleh: Evocati Sibarani, Ririn Avelia, Winda Fentika</p>
+                </div>
+                <div>
+                    <p class="mb-0 font-italic text-light">"Jelajahi keindahan tata surya kita, karena langit bukanlah batas,
+                        melainkan awal dari petualangan."</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+	<div id="content2" class="content"></div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

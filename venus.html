@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tata Surya | Venus</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../fig/Venus.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <video class="video-background" autoplay muted loop>
+        <source src="../fig/videoplayback2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="video-overlay"></div>
+
+    <div class="container-fluid content px-0 py-0">
+        <nav id="navbar" class="navbar navbar-expand-lg sticky-top">
+			<div class="container-fluid">
+				<a href="../index.html" target="_top">
+					<img class="navbar-brand text-light logo-gimang" alt="logo" src="../fig/logo-img.png">
+					<img class="navbar-brand text-light logo-gimang" alt="logo" src="../fig/logo-text.png">
+				</a>
+
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon text-light"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+						
+						<li class="nav-item">
+							<a class="nav-link text-light" href="../index.html#matahari">☀️Matahari</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-light" href="../planet-kerdil.html">🌕Planet Kerdil</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-light" href="#" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								🪐Planet
+							</a>
+							<ul class="dropdown-menu warna-nav">
+								<li><a class="dropdown-item text-light hoperr" href="Merkurius.html">Merkurius</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="venus.html">Venus</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="bumi.html">Bumi</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="mars.html">Mars</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="jupiter.html">Jupiter</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="saturnus.html">Saturnus</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="uranus.html">Uranus</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="neptunus.html">Neptunus</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-light" href="#" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								☄️Benda Langit
+							</a>
+							<ul class="dropdown-menu warna-nav">
+								<li><a class="dropdown-item text-light hoperr" href="../asteroid.html">Asteroid</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="../komet.html">Komet</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="../meteorid.html">Meteorid</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+        <div class="container-fluid cs-1">
+            <div class="container ">
+                <div class="row pb-5">
+                    <div class=" col-lg-7 pe-4 my-0">
+                        <h1 class="russo-one-regular mt-5 text-info">Venus</h1>
+                        <div class="row mt-3">
+                            <div class="col tinggi-typing pe-4 pe-lg-0">
+                                <div class="typing-animation">
+                                    <span class="me-5 text-warning" id="typing-text"
+                                        data-text="Venus adalah planet terestrial yang dikenal sebagai 'kembaran Bumi' karena ukuran dan komposisinya yang serupa, tetapi memiliki atmosfer tebal karbon dioksida dan suhu permukaan ekstrem yang menjadikannya planet terpanas di Tata Surya."></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4 pt-5">
+                            <div class="col-lg-5">
+                                <h3 class="russo-one-regular">Ingin melihat fakta menarik mengenai Venus?</h3>
+                                <button type="button" class="btn btn-warning mt-3" id="tombolFakta"
+                                    onclick="toggleFakta()">Klik
+                                    di sini!</button>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="">
+                                    <div class="collapse collapse-horizontal" id="collapseFakta">
+                                        <div class="card card-body  bg-dark bg-opacity-50 pb-0 ayammm mt-2 mt-lg-0"
+                                            style="">
+                                            <p id="fakta">Klik tombol untuk melihat fakta menarik!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-5 content-section">
+                        <div class="h-100 w-100 d-flex align-items-center justify-content-center">
+                            <img src="../fig/Venus.png" alt="Gambar" class=" h-75 w-lg-75">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class=" cs-1">
+            <div class="container">
+                <div class="row d-flex align-items-center pb-5">
+
+                    <div class="col-lg-4 mt-4">
+                        <div class="border border-2 rounded-3 px-2 pb-2">
+                            <div class="p-2 border-bottom border-3 pb-0 mb-2">
+                                <h2 class="russo-one-regular text-info">Profil Venus</h2>
+                            </div>
+                            <ul class="list-group bg-transparent text-light">
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Jenis Planet:</b>
+                                    Terestrial (Batuan)
+                                </li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Diameter:</b> 12.104 km
+                                </li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Massa:</b> 4,867 x 10²⁴ kg
+                                </li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Volume:</b> 9,284 x 10¹¹ km³
+                                </li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Gravitasi Permukaan:</b>
+                                    8,87 m/s²</li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Jarak dari Matahari:</b>
+                                    108.200.000 km</li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Kecepatan Orbit:</b>
+                                    35,02 km/s</li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Suhu Permukaan:</b>
+                                    Rata-rata 464°C</li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Atmosfer:</b>
+                                    Sangat tebal, terdiri dari karbon dioksida (96,5%), nitrogen (3,5%), dan jejak sulfur dioksida</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 mt-4 h-100">
+                        <div class="border border-2 rounded-3 px-2 pb-2  h-100">
+                            <div class="p-2 border-bottom border-3 pb-0 mb-2">
+                                <h2 class="russo-one-regular text-info">Struktur Lapisan Venus</h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 mt-lg-2">
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="accordion-item bg-transparent">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button py-2 bg-dark bg-opacity-50 text-light"
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseOne" aria-expanded="true"
+                                                    aria-controls="collapseOne">
+                                                    <b>Inti</b>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                                data-bs-parent="#accordionExample">
+                                                <div class="accordion-body text-light bg-dark bg-opacity-50">
+                                                    <b>Inti:</b> Inti Venus diyakini terdiri dari campuran besi dan nikel dengan diameter sekitar 3.000 km, kemungkinan berbentuk cair atau setidaknya sebagian cair karena kurangnya medan magnet global yang kuat.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item bg-transparent">
+                                            <h2 class="accordion-header">
+                                                <button
+                                                    class="accordion-button collapsed py-2 bg-dark bg-opacity-50 text-light"
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseTwo" aria-expanded="true"
+                                                    aria-controls="collapseTwo">
+                                                    <b>Mantel</b>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExample">
+                                                <div class="accordion-body text-light bg-dark bg-opacity-50">
+                                                    <b>Mantel:</b> Mantel Venus, yang terdiri dari batuan silikat, diyakini aktif secara geologis dan menjadi sumber dari aktivitas vulkanik yang meluas di permukaan planet.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item bg-transparent">
+                                            <h2 class="accordion-header">
+                                                <button
+                                                    class="accordion-button collapsed py-2 bg-dark bg-opacity-50 text-light"
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseThree" aria-expanded="true"
+                                                    aria-controls="collapseThree">
+                                                    <b>Kerak</b>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseThree" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExample">
+                                                <div class="accordion-body text-light bg-dark bg-opacity-50">
+                                                    <b>Kerak:</b> Kerak Venus yang tipis, dengan ketebalan sekitar 50 km, terbentuk dari batuan vulkanik dan ditutupi oleh lapisan debu serta abu vulkanik, menunjukkan permukaan yang relatif muda tanpa tanda lempeng tektonik seperti di Bumi.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-6 mt-lg-2">
+                                    <img class="rounded-3 w-100" src="../fig/struktur-Venus.gif" alt="Gambar">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-4 h-100">
+                        <div class="border border-2 rounded-3 px-2 pb-2  h-100">
+                            <div class="p-2 border-bottom border-3 pb-0 mb-2">
+                                <h2 class="russo-one-regular text-info">Planet Terpanas dengan Rotasi Terbalik</h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-4 mt-lg-2">
+                                    <img class="rounded-3 w-100 border border-2"
+                                        src="https://pasla.jambiprov.go.id/wp-content/uploads/2023/02/planet-venus.png"
+                                        alt="Gambar">
+                                </div>
+                                <div class="col-md-8 col-12 mt-lg-2 pe-4 d-flex align-items-center">
+                                    <p class="mt-3 mt-md-0">
+                                        Venus adalah planet terestrial yang unik di Tata Surya karena memiliki rotasi terbalik, di mana ia berputar dari timur ke barat, berlawanan dengan sebagian besar planet lainnya. Selain itu, Venus dikenal sebagai planet terpanas, dengan suhu rata-rata permukaan mencapai 464°C, disebabkan oleh atmosfernya yang sangat tebal dan kaya karbon dioksida yang menciptakan efek rumah kaca ekstrem. Permukaannya dipenuhi oleh gunung berapi, dataran vulkanik, dan sedikit kawah, menunjukkan aktivitas geologi yang masih berlangsung. Meskipun sering disebut "kembaran Bumi" karena ukuran dan komposisinya yang serupa, kondisi ekstrem di Venus menjadikannya salah satu tempat paling tidak ramah di Tata Surya.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7 mx-0 pt-4 mt-4">
+                        <div class="border border-2 rounded-3 px-2 h-100 pb-2">
+                            <div class="p-2 border-bottom border-3 pb-0 mb-2">
+                                <h2 class="russo-one-regular text-info">Video Edukasi Venus</h2>
+                            </div>
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://youtube.com/embed/2SgDsccNh9c" title="YouTube video"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen class="rounded-3">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 pt-4 mt-4">
+                        <div class="border border-2 rounded-3  pb-2 px-2">
+                            <div class="p-2 border-bottom border-3 pb-0 mb-2">
+                                <h2 class="russo-one-regular text-info">Artikel Tentang Venus</h2>
+                            </div>
+                            <ul class="list-group bg-transparent text-light">
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+                                        href="https://www.kompas.com/skola/read/2022/09/12/100000469/mengenal-planet-venus-si-bintang-kejora?page=all"
+                                        class="tulisan-lanjut link-at"><b>Kompas.com | </b>Mengenal Planet Venus, Si Bintang Kejora
+                
+                                    </a></li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+                                        href="https://www.gramedia.com/literasi/ciri-ciri-planet-venus/?srsltid=AfmBOopOTI1-9OjflLDccTJLkVY4DmRvUAAQbbCL-6nPjU0loyQBkgJWad/134098601/matahari-pengertian-ciri-ciri-serta-urutan-lapisan-atau-bagiannya?page=1"
+                                        class="tulisan-lanjut link-at"><b>Gramedia.com | </b>Mengenal Ciri-Ciri Fisik Planet Venus dalam
+                                        Tata Surya</a></li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+                                        href="https://www.kompas.com/skola/read/2019/12/29/080000269/venus-planet-paling-terang-di-tata-surya?page=all"
+                                        class="tulisan-lanjut link-at"><b>Kompas.com |
+                                        </b>Venus, Planet Paling Terang di Tata Surya
+                
+                                    </a></li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+                                        href="https://tirto.id/mengenal-planet-venus-ciri-ciri-fakta-dan-julukan-gtz1"
+                                        class="tulisan-lanjut link-at"><b>tirto.id| </b>Mengenal Planet Venus: Ciri-Ciri, Fakta, dan
+                                        Julukan</a></li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+                                        href="https://pasla.jambiprov.go.id/planet-venus-planet-terpanas-di-tata-surya/"
+                                        class="tulisan-lanjut link-at"><b>Pemrov jambi.com | </b>Planet Venus: Planet Terpanas di Tata
+                                        Surya</a>
+                                </li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+                                        href="https://oif.umsu.ac.id/2020/11/mengenal-lebih-dekat-planet-venus/"
+                                        class="tulisan-lanjut link-at"><b>OIF UMSU.com | </b>Mengenal Lebih Dekat Planet Venus</a></li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+                                        href="https://science.nasa.gov/venus/venus-facts/" class="tulisan-lanjut link-at"><b>NASA
+                                            science.com | </b> Fakta tentang Venus
+                                    </a></li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+                                        href="https://www.toppr.com/guides/physics/solar-system/venus/"
+                                        class="tulisan-lanjut link-at"><b>toppr.com | </b>Defenisi, karakteristik, struktur internal dan
+                                        contoh Venus
+                
+                                    </a></li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+                                        href="https://www.liputan6.com/hot/read/5293925/mengenal-ciri-ciri-planet-venus-punya-kemiripan-dengan-bumi0/merkurius-jadi-planet-terkecil-di-tata-surya-benarkah-dulunya-seukuran-bumi"
+                                        class="tulisan-lanjut link-at"><b>Liputan6.com | </b> Mengenal Ciri Ciri Planet Venus, Punya
+                                        Kemiripan dengan Bumi
+                
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+    <footer class="text-white text-center">
+        <div class="py-4">
+            <div class="container">
+                <div class="row mb-3">
+                    <div class="col-xl-4">
+                        <h5 class="text-uppercase">Cosmic Team</h5>
+                        <p class="small">kelompok yang berfokus pada pembuatan website edukasi mengenai tata surya.
+                            Bahasa yang digunakan dalam pembuatan website ini meliputi HTML, CSS, dan JavaScript untuk
+                            menambahkan interaktivitas.</p>
+                    </div>
+
+                    <div class="col-xl-8">
+                        <h5 class="text-uppercase">Kontak</h5>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-4 col-6">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <b class="text-decoration-underline">
+                                            Evocati Sibarani
+                                        </b>
+                                        <div class="row mt-3">
+                                            <div class="col-3 ">
+                                                <img class="rounded-3 w-100"
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+                                                    alt="Gambar">
+                                            </div>
+                                            <div class="col-9 d-flex align-items-center ps-0">
+                                                <b>+62 823-8521-3040</b>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-3">
+                                                <img class="rounded-3 w-100"
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png"
+                                                    alt="Gambar">
+                                            </div>
+                                            <div class="col-9 d-flex align-items-center ps-0">
+                                                <b>@evocati_sbr</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-6">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <b class="text-decoration-underline">
+                                            Ririn Avelia
+                                        </b>
+                                        <div class="row mt-3">
+                                            <div class="col-3 ">
+                                                <img class="rounded-3 w-100"
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+                                                    alt="Gambar">
+                                            </div>
+                                            <div class="col-9 d-flex align-items-center ps-0">
+                                                <b>+62 823-9065-3179</b>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-3">
+                                                <img class="rounded-3 w-100"
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png"
+                                                    alt="Gambar">
+                                            </div>
+                                            <div class="col-9 d-flex align-items-center ps-0">
+                                                <b>@ririnavelia</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-6 mt-4 mt-md-0">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <b class="text-decoration-underline">
+                                            Winda Fentika
+                                        </b>
+                                        <div class="row mt-3">
+                                            <div class="col-3 ">
+                                                <img class="rounded-3 w-100"
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+                                                    alt="Gambar">
+                                            </div>
+                                            <div class="col-9 d-flex align-items-center ps-0">
+                                                <b>+62 838-7463-0869</b>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-3">
+                                                <img class="rounded-3 w-100"
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png"
+                                                    alt="Gambar">
+                                            </div>
+                                            <div class="col-9 d-flex align-items-center ps-0">
+                                                <b>@wndfntk</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <hr class="bg-light">
+                <div class="mb-2">
+                    <p class="mb-1">&copy; 2024 Cosmic Team</p>
+                    <p class="mb-1">Dibuat oleh: Evocati Sibarani, Ririn Avelia, Winda Fentika</p>
+                </div>
+                <div>
+                    <p class="mb-0 font-italic">"Jelajahi keindahan tata surya kita, karena langit bukanlah batas,
+                        melainkan awal dari petualangan."</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../typing.js"></script>
+    <script src="../funfact.js"></script>
+    <script>
+        const faktaMenarik = [
+            "Venus memiliki suhu rata-rata 464°C, lebih panas daripada Merkurius, meskipun lebih jauh dari Matahari, karena efek rumah kaca ekstrem dari atmosfernya yang tebal.",
+            "Venus berotasi sangat lambat dengan satu hari Venus setara dengan 243 hari Bumi, dan berputar ke arah yang berlawanan dibandingkan dengan sebagian besar planet lainnya.",
+            "Atmosfer Venus terdiri dari karbon dioksida (96,5%) dan sulfur dioksida, dengan tekanan permukaan sekitar 92 kali lipat tekanan atmosfer Bumi, cukup kuat untuk menghancurkan sebagian besar pesawat ruang angkasa.",
+            "Venus sering disebut 'kembaran Bumi' karena ukurannya yang hampir sama, tetapi kondisi permukaannya sangat tidak ramah, dengan hujan asam sulfur dan aktivitas vulkanik yang intens.",
+            "Venus, seperti Merkurius, adalah salah satu dari dua planet di Tata Surya yang tidak memiliki satelit alami atau sistem cincin.",
+
+        ];
+    </script>
+</body>
+
+</html>

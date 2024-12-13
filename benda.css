@@ -1,0 +1,154 @@
+.container {
+    margin-top: 50px;
+}
+
+.section-title {
+    color: #343a40;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.video-container {
+    margin-bottom: 50px;
+}
+
+.penjelasan h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #1d1f2f;
+}
+
+.penjelasan p {
+    font-size: 1rem;
+    color: #495057;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.grid-item {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item h3 {
+    font-size: 1.8rem;
+    color: #1d1f2f;
+    margin-bottom: 15px;
+}
+
+.jenis-asteroid-card {
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.jenis-asteroid-card img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.jenis-asteroid-card-body {
+    padding: 25px;
+}
+
+.jenis-asteroid-card-body h5 {
+    font-size: 1.5rem;
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+.jenis-asteroid-card-body p {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+h3, h4 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Styling images to be smaller and uniform */
+.row img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.h3-heading {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.col-md-6 {
+    margin-bottom: 1rem;
+}
+
+/* Adjusting column layout */
+.row {
+    margin-bottom: 2rem;
+}
+
+.img-fluid {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Space out sections more */
+.section {
+    margin-bottom: 2rem;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.komet-image {
+    max-width: 100%;
+    height: auto;
+}
+.grid-card img {
+    max-height: 150px;
+    object-fit: cover;
+}
+.list-section h4 {
+    color: #007BFF;
+}

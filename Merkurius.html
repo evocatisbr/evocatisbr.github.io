@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tata Surya | Merkurius</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../fig/Mercury.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <video class="video-background" autoplay muted loop>
+        <source src="../fig/videoplayback2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="video-overlay"></div>
+
+    <div class="container-fluid content px-0 py-0">
+        <nav id="navbar" class="navbar navbar-expand-lg sticky-top">
+			<div class="container-fluid">
+				<a href="../index.html" target="_top">
+					<img class="navbar-brand text-light logo-gimang" alt="logo" src="../fig/logo-img.png">
+					<img class="navbar-brand text-light logo-gimang" alt="logo" src="../fig/logo-text.png">
+				</a>
+
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon text-light"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+						
+						<li class="nav-item">
+							<a class="nav-link text-light" href="../index.html#matahari">☀️Matahari</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-light" href="../planet-kerdil.html">🌕Planet Kerdil</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-light" href="#" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								🪐Planet
+							</a>
+							<ul class="dropdown-menu warna-nav">
+								<li><a class="dropdown-item text-light hoperr" href="Merkurius.html">Merkurius</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="venus.html">Venus</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="bumi.html">Bumi</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="mars.html">Mars</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="jupiter.html">Jupiter</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="saturnus.html">Saturnus</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="uranus.html">Uranus</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="neptunus.html">Neptunus</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-light" href="#" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								☄️Benda Langit
+							</a>
+							<ul class="dropdown-menu warna-nav">
+								<li><a class="dropdown-item text-light hoperr" href="../asteroid.html">Asteroid</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="../komet.html">Komet</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="../meteorid.html">Meteorid</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+        <div class="container-fluid cs-1">
+            <div class="container ">
+                <div class="row pb-5">
+                    <div class=" col-lg-7 pe-4 my-0">
+                        <h1 class="russo-one-regular mt-5 text-info">Merkurius</h1>
+                        <div class="row mt-3">
+                            <div class="col tinggi-typing pe-4 pe-lg-0">
+                                <div class="typing-animation">
+                                    <span class="me-5 text-warning" id="typing-text"
+                                        data-text="Merkurius adalah planet terkecil dan terdekat dengan Matahari di Tata Surya, memiliki permukaan berbatu yang dipenuhi kawah akibat tumbukan asteroid, serta mengalami suhu ekstrem dari sangat panas di siang hari hingga sangat dingin di malam hari."></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4 pt-5">
+                            <div class="col-lg-5">
+                                <h3 class="russo-one-regular">Ingin melihat fakta menarik mengenai Merkurius?</h3>
+                                <button type="button" class="btn btn-warning mt-3" id="tombolFakta"
+                                    onclick="toggleFakta()">Klik
+                                    di sini!</button>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="">
+                                    <div class="collapse collapse-horizontal" id="collapseFakta">
+                                        <div class="card card-body  bg-dark bg-opacity-50 pb-0 ayammm mt-2 mt-lg-0"
+                                            style="">
+                                            <p id="fakta">Klik tombol untuk melihat fakta menarik!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-5 content-section">
+                        <div class="h-100 w-100 d-flex align-items-center justify-content-center">
+                            <img src="../fig/Mercury.png" alt="Gambar" class=" h-75 w-lg-75">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class=" cs-1">
+            <div class="container">
+                <div class="row d-flex align-items-center pb-5">
+
+                    <div class="col-lg-4 mt-4">
+                        <div class="border border-2 rounded-3 px-2 pb-2">
+                            <div class="p-2 border-bottom border-3 pb-0 mb-2">
+                                <h2 class="russo-one-regular text-info">Profil Merkurius</h2>
+                            </div>
+                            <ul class="list-group bg-transparent text-light">
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Jenis Planet:</b>
+                                    Terestrial (Batuan)
+                                </li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Diameter:</b> 4.880 km
+                                </li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Massa:</b> 3,3011 x 10²³
+                                    kg
+                                </li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Volume:</b> 6,083 x 10¹³
+                                    km³
+                                </li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Gravitasi Permukaan:</b>
+                                    3,7 m/s²</li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Jarak dari Matahari:</b>
+                                    57.910.000 km</li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Kecepatan Orbit:</b>
+                                    47,87 km/s</li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Suhu Permukaan:</b>
+                                    430°C (siang), -180°C (malam)</li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Atmosfer:</b>
+                                    Sangat tipis, terdiri dari oksigen, natrium, hidrogen, helium, dan kalium.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 mt-4 h-100">
+                        <div class="border border-2 rounded-3 px-2 pb-2  h-100">
+                            <div class="p-2 border-bottom border-3 pb-0 mb-2">
+                                <h2 class="russo-one-regular text-info">Struktur Lapisan Merkurius</h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 mt-lg-2">
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="accordion-item bg-transparent">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button py-2 bg-dark bg-opacity-50 text-light"
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseOne" aria-expanded="true"
+                                                    aria-controls="collapseOne">
+                                                    <b>Inti</b>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                                data-bs-parent="#accordionExample">
+                                                <div class="accordion-body text-light bg-dark bg-opacity-50">
+                                                    <b>Inti:</b> Inti Merkurius sebagian besar terbuat dari besi dan
+                                                    sangat besar, mencakup sekitar 85% dari jari-jari planet ini, yang
+                                                    menjadikannya sangat padat. Inti ini terdiri dari dua bagian, yaitu
+                                                    inti padat dan inti cair, yang bersama-sama menghasilkan medan
+                                                    magnet kecil di sekitar planet.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item bg-transparent">
+                                            <h2 class="accordion-header">
+                                                <button
+                                                    class="accordion-button collapsed py-2 bg-dark bg-opacity-50 text-light"
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseTwo" aria-expanded="true"
+                                                    aria-controls="collapseTwo">
+                                                    <b>Mantel</b>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExample">
+                                                <div class="accordion-body text-light bg-dark bg-opacity-50">
+                                                    <b>Mantel:</b> Mantel Merkurius terbuat dari batuan silikat, namun
+                                                    lapisan ini sangat tipis dibandingkan dengan mantel Bumi dan hampir
+                                                    tidak terpengaruh oleh aktivitas vulkanik atau geologis. Karena
+                                                    mantel yang tipis, Merkurius tidak mengalami banyak perubahan
+                                                    permukaan seperti planet lain.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item bg-transparent">
+                                            <h2 class="accordion-header">
+                                                <button
+                                                    class="accordion-button collapsed py-2 bg-dark bg-opacity-50 text-light"
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseThree" aria-expanded="true"
+                                                    aria-controls="collapseThree">
+                                                    <b>Kerak</b>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseThree" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExample">
+                                                <div class="accordion-body text-light bg-dark bg-opacity-50">
+                                                    <b>Kerak:</b> Kerak Merkurius adalah lapisan terluar yang terdiri
+                                                    dari batu silikat yang lebih ringan dan sangat tipis. Permukaannya
+                                                    dipenuhi kawah besar dan lembah yang terbentuk akibat tumbukan
+                                                    meteoroid, karena planet ini memiliki atmosfer yang sangat tipis
+                                                    yang tidak dapat melindungi permukaannya dari benda luar angkasa.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-6 mt-lg-2">
+                                    <img class="rounded-3 w-100" src="../fig/Struktur-Merkurius.webp" alt="Gambar">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-4 h-100">
+                        <div class="border border-2 rounded-3 px-2 pb-2  h-100">
+                            <div class="p-2 border-bottom border-3 pb-0 mb-2">
+                                <h2 class="russo-one-regular text-info">Merkurius sebagai Planet Terkecil dan Tercepat di Tata
+                                    Surya</h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-4 mt-lg-2">
+                                    <img class="rounded-3 w-100 border border-2"
+                                        src="https://asset-a.grid.id/crop/104x13:1251x781/750x504/photo/2021/05/16/fakta-planet-merkuriusjpg-20210516105849.jpg"
+                                        alt="Gambar">
+                                </div>
+                                <div class="col-md-8 col-12 mt-lg-2 pe-4 d-flex align-items-center">
+                                    <p class="mt-3 mt-md-0">
+                                        Merkurius adalah planet terkecil di Tata Surya, dengan diameter sekitar 4.880
+                                        km, yang lebih kecil dari bulan Bumi. Meskipun ukurannya kecil, Merkurius
+                                        memiliki banyak keunikan, salah satunya adalah jaraknya yang sangat dekat dengan
+                                        Matahari, yang mempengaruhi kecepatan orbitnya. Planet ini mengorbit Matahari
+                                        dengan kecepatan tertinggi di antara semua planet, mencapai sekitar 47,87 km/s
+                                        (172.000 km/jam). Kecepatan orbit yang sangat tinggi ini membuat Merkurius
+                                        menyelesaikan satu putaran lengkap mengelilingi Matahari hanya dalam 88 hari
+                                        Bumi, menjadikannya planet yang paling cepat bergerak di Tata Surya.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7 mx-0 pt-4 mt-4">
+                        <div class="border border-2 rounded-3 px-2 h-100 pb-2">
+                            <div class="p-2 border-bottom border-3 pb-0 mb-2">
+                                <h2 class="russo-one-regular text-info">Video Edukasi Merkurius</h2>
+                            </div>
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://youtube.com/embed/FbSXQ4axWvM" title="YouTube video"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen class="rounded-3">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 pt-4 mt-4">
+                        <div class="border border-2 rounded-3  pb-2 px-2">
+                            <div class="p-2 border-bottom border-3 pb-0 mb-2">
+                                <h2 class="russo-one-regular text-info">Artikel Tentang Merkurius</h2>
+                            </div>
+                            <ul class="list-group bg-transparent text-light">
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+                                        href="https://www.kompas.com/sains/read/2021/06/05/163000223/mengenal-lebih-dekat-planet-merkurius-planet-terkecil-di-tata-surya"
+                                        class="tulisan-lanjut link-at"><b>Detik.com | </b>Mengenal Lebih Dekat Planet
+                                        Merkurius, Planet Terkecil di Tata Surya
+
+                                    </a></li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+                                        href="https://nationalgeographic.grid.id/read/134098601/matahari-pengertian-ciri-ciri-serta-urutan-lapisan-atau-bagiannya?page=1"
+                                        class="tulisan-lanjut link-at"><b>Gramedia.com | </b>Serba-Serbi Merkurius dan
+                                        Fun Fact Merkurius</a></li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+                                        href="https://www.kompas.com/tren/read/2024/04/12/090000865/7-fakta-unik-merkurius-planet-paling-kecil-dan-memiliki-ekor?page=all"
+                                        class="tulisan-lanjut link-at"><b>Kompas.com |
+                                        </b>7 Fakta Unik Merkurius, Planet Paling Kecil dan Memiliki Ekor
+
+                                    </a></li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+                                        href="https://pasla.jambiprov.go.id/planet-merkurius-planet-terkecil-beserta-11-fakta-uniknya/"
+                                        class="tulisan-lanjut link-at"><b>Jambiprov.go.id| </b>Planet Merkurius: Planet
+                                        Terkecil Beserta 11 Fakta Uniknya</a></li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+                                        href="https://mediaindonesia.com/weekend/493156/mengenal-merkurius-planet-terkecil-di-tata-surya#google_vignette"
+                                        class="tulisan-lanjut link-at"><b>mediaindonesia.com | </b>Mengenal Merkurius,
+                                        Planet Terkecil di Tata Surya</a>
+                                </li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+                                        href="https://kumparan.com/ragam-info/mengenal-merkurius-sebagai-planet-terkecil-di-tata-surya-22HCuFUo2a3"
+                                        class="tulisan-lanjut link-at"><b>kumparan.com | </b>Mengenal Merkurius sebagai
+                                        Planet Terkecil di Tata Surya</a></li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+                                        href="https://www.idntimes.com/science/discovery/lia-89/5-fenomena-langka-ini-hanya-ada-di-planet-merkurius-istimewa"
+                                        class="tulisan-lanjut link-at"><b>idntimes.com | </b> 5 Fenomena Langka Ini
+                                        Hanya Ada di Planet Merkurius, Istimewa!
+                                    </a></li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+                                        href="https://www.detik.com/edu/detikpedia/d-7301090/merkurius-jadi-planet-terkecil-di-tata-surya-benarkah-dulunya-seukuran-bumi"
+                                        class="tulisan-lanjut link-at"><b>detik.com | </b> Merkurius Jadi Planet
+                                        Terkecil di Tata Surya, Benarkah Dulunya Seukuran Bumi?
+
+                                    </a></li>
+                                <li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+                                        href="https://www.detik.com/edu/detikpedia/d-7301090/merkurius-jadi-planet-terkecil-di-tata-surya-benarkah-dulunya-seukuran-bumi"
+                                        class="tulisan-lanjut link-at"><b>detik.com | </b> Merkurius Jadi Planet
+                                        Terkecil di Tata Surya, Benarkah Dulunya Seukuran Bumi?
+
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+    <footer class="text-white text-center">
+        <div class="py-4">
+            <div class="container">
+                <div class="row mb-3">
+                    <div class="col-xl-4">
+                        <h5 class="text-uppercase">Cosmic Team</h5>
+                        <p class="small">kelompok yang berfokus pada pembuatan website edukasi mengenai tata surya.
+                            Bahasa yang digunakan dalam pembuatan website ini meliputi HTML, CSS, dan JavaScript untuk
+                            menambahkan interaktivitas.</p>
+                    </div>
+
+                    <div class="col-xl-8">
+                        <h5 class="text-uppercase">Kontak</h5>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-4 col-6">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <b class="text-decoration-underline">
+                                            Evocati Sibarani
+                                        </b>
+                                        <div class="row mt-3">
+                                            <div class="col-3 ">
+                                                <img class="rounded-3 w-100"
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+                                                    alt="Gambar">
+                                            </div>
+                                            <div class="col-9 d-flex align-items-center ps-0">
+                                                <b>+62 823-8521-3040</b>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-3">
+                                                <img class="rounded-3 w-100"
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png"
+                                                    alt="Gambar">
+                                            </div>
+                                            <div class="col-9 d-flex align-items-center ps-0">
+                                                <b>@evocati_sbr</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-6">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <b class="text-decoration-underline">
+                                            Ririn Avelia
+                                        </b>
+                                        <div class="row mt-3">
+                                            <div class="col-3 ">
+                                                <img class="rounded-3 w-100"
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+                                                    alt="Gambar">
+                                            </div>
+                                            <div class="col-9 d-flex align-items-center ps-0">
+                                                <b>+62 823-9065-3179</b>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-3">
+                                                <img class="rounded-3 w-100"
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png"
+                                                    alt="Gambar">
+                                            </div>
+                                            <div class="col-9 d-flex align-items-center ps-0">
+                                                <b>@ririnavelia</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-6 mt-4 mt-md-0">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <b class="text-decoration-underline">
+                                            Winda Fentika
+                                        </b>
+                                        <div class="row mt-3">
+                                            <div class="col-3 ">
+                                                <img class="rounded-3 w-100"
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+                                                    alt="Gambar">
+                                            </div>
+                                            <div class="col-9 d-flex align-items-center ps-0">
+                                                <b>+62 838-7463-0869</b>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-3">
+                                                <img class="rounded-3 w-100"
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png"
+                                                    alt="Gambar">
+                                            </div>
+                                            <div class="col-9 d-flex align-items-center ps-0">
+                                                <b>@wndfntk</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <hr class="bg-light">
+                <div class="mb-2">
+                    <p class="mb-1">&copy; 2024 Cosmic Team</p>
+                    <p class="mb-1">Dibuat oleh: Evocati Sibarani, Ririn Avelia, Winda Fentika</p>
+                </div>
+                <div>
+                    <p class="mb-0 font-italic">"Jelajahi keindahan tata surya kita, karena langit bukanlah batas,
+                        melainkan awal dari petualangan."</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../typing.js"></script>
+    <script src="../funfact.js"></script>
+    <script>
+        const faktaMenarik = [
+            "Merkurius adalah planet yang paling dekat dengan Matahari, dengan jarak rata-rata sekitar 57,91 juta kilometer. Namun, bukan planet terpanas di Tata Surya karena atmosfernya yang sangat tipis tidak dapat menahan panas.",
+            "Merkurius adalah planet terkecil di Tata Surya, dengan diameter sekitar 4.880 km—lebih kecil dari beberapa bulan, seperti Ganymede (milik Jupiter) dan Titan (milik Saturnus).",
+            "Merkurius membutuhkan 59 hari Bumi untuk berotasi sekali pada porosnya, tetapi hanya butuh 88 hari Bumi untuk mengelilingi Matahari, menjadikannya planet dengan tahun terpendek.",
+            "Suhu di Merkurius sangat ekstrem, dengan suhu siang hari mencapai sekitar 430°C dan suhu malam turun hingga -180°C karena tidak ada atmosfer yang signifikan untuk mempertahankan panas.",
+            "Atmosfer Merkurius sangat tipis, disebut eksosfer, yang terdiri dari oksigen, natrium, hidrogen, helium, dan kalium. Karena itu, planet ini tidak mampu melindungi permukaannya dari radiasi matahari atau meteoroid.",
+
+        ];
+    </script>
+</body>
+
+</html>

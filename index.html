@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tata Surya</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="shortcut icon" href="fig/web-icon.png">
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<video class="video-background" autoplay muted loop>
+		<source src="fig/videoplayback2.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+	<div class="video-overlay"></div>
+
+	<div class="container-fluid content px-0 py-0">
+		<nav id="navbar" class="navbar navbar-expand-lg sticky-top">
+			<div class="container-fluid">
+				<a href="index.html" target="_top">
+					<img class="navbar-brand text-light logo-gimang" alt="logo" src="fig/logo-img.png">
+					<img class="navbar-brand text-light logo-gimang" alt="logo" src="fig/logo-text.png">
+				</a>
+
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon text-light"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+						
+						<li class="nav-item">
+							<a class="nav-link text-light" href="#matahari">☀️Matahari</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-light" href="planet-kerdil.html">🌕Planet Kerdil</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-light" href="#" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								🪐Planet
+							</a>
+							<ul class="dropdown-menu warna-nav">
+								<li><a class="dropdown-item text-light hoperr" href="planet/Merkurius.html">Merkurius</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="planet/venus.html">Venus</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="planet/bumi.html">Bumi</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="planet/mars.html">Mars</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="planet/jupiter.html">Jupiter</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="planet/saturnus.html">Saturnus</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="planet/uranus.html">Uranus</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="planet/neptunus.html">Neptunus</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-light" href="#" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								☄️Benda Langit
+							</a>
+							<ul class="dropdown-menu warna-nav">
+								<li><a class="dropdown-item text-light hoperr" href="asteroid.html">Asteroid</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="komet.html">Komet</a></li>
+								<li><a class="dropdown-item text-light hoperr" href="meteorid.html">Meteorid</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container-fluid cs-1">
+			<div class="container">
+				<div class="row">
+					<div class=" col-lg-7 ps-5 my-0">
+						<h1 class="russo-one-regular mt-5 text-info">Sistem Tata Surya</h1>
+						<div class="row mt-3">
+							<div class="col tinggi-typing pe-4 pe-lg-0">
+								<div class="typing-animation">
+									<span class="me-5 text-warning" id="typing-text" data-text="Tata surya adalah sistem planet yang terdiri dari Matahari dan berbagai objek angkasa lainnya."></span>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col margin-cr-atas">
+								<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"
+									data-bs-interval="3000">
+
+									<div class="carousel-inner pe-4 pe-lg-0">
+										<div class="carousel-item active">
+											<img src="fig/Mercury.png" class="planet-cr" alt="...">
+											<div class="carousel-caption d-block mb-0 pb-0">
+												<h5 class="text-left text-disable russo-one-regular">Merkurius</h5>
+												<p class="text-left">Merkurius adalah planet terkecil<span
+														class="d-none d-sm"> dan terdekat dengan
+														Matahari</span><span class="d-none d-md-inline">, dengan orbit
+														tercepat, yaitu 88 hari Bumi. <span
+															class="d-lg-none d-xl-inline">Suhunya sangat
+															ekstrem, mencapai 430°C di siang hari dan turun hingga
+															-180°C pada malam
+															hari.</span></span></p>
+												<a href="planet/Merkurius.html" class="link-cr ms-0 ps-0">Ingin tahu tentang
+													Merkurius? Klik di sini!</a>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img src="fig/Venus.png" class="planet-cr" alt="...">
+											<div class="carousel-caption d-block mb-0 pb-0">
+												<h5 class="text-left text-warning russo-one-regular">Venus</h5>
+												<p class="text-left">Venus adalah planet kedua dari Matahari dengan
+													atmosfer
+													tebal<span class="d-none d-md-inline d-lg-none d-xl-inline"> yang
+														menyebabkan suhu permukaannya sangat panas, sekitar 470°C,
+														akibat efek rumah kaca ekstrem</span>.</p>
+												<a href="planet/venus.html" class="link-cr ms-0 ps-0">Ingin tahu tentang Venus?
+													Klik di sini!</a>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img src="fig/Earth.png" class="planet-cr" alt="...">
+											<div class="carousel-caption d-block mb-0 pb-0">
+												<h5 class="text-left text-info russo-one-regular">Bumi</h5>
+												<p class="text-left">Bumi adalah planet ketiga dari Matahari yang
+													mendukung
+													kehidupan<span class="d-none d-md-inline d-lg-none d-xl-inline">,
+														dengan atmosfer yang mengandung oksigen dan air dalam bentuk
+														cair, serta berbagai ekosistem yang beragam</span>.</p>
+												<a href="planet/bumi.html" class="link-cr ms-0 ps-0">Ingin tahu
+													tentang Bumi?
+													Klik di sini!</a>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img src="fig/Mars.png" class="planet-cr" alt="...">
+											<div class="carousel-caption d-block mb-0 pb-0">
+												<h5 class="text-left text-danger russo-one-regular">Mars</h5>
+												<p class="text-left">Mars adalah planet keempat dari Matahari, dikenal
+													sebagai "Planet Merah"<span
+														class="d-none d-md-inline d-lg-none d-xl-inline"> karena
+														permukaannya yang kaya besi oksida, dengan
+														atmosfer tipis dan suhu dingin</span>.</p>
+												<a href="planet/mars.html" class="link-cr ms-0 ps-0">Ingin tahu tentang Mars?
+													Klik di sini!</a>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img src="fig/Jupiter.png" class="planet-cr" alt="...">
+											<div class="carousel-caption d-block mb-0 pb-0">
+												<h5 class="text-left text-warning russo-one-regular">Jupiter</h5>
+												<p class="text-left">Jupiter adalah planet terbesar di tata surya<span
+														class="d-none d-md-inline d-lg-none d-xl-inline">, dengan
+														atmosfer gas hidrogen dan helium serta lebih dari 70 bulan,
+														termasuk
+														Ganymede yang merupakan bulan terbesarnya</span>.</p>
+												<a href="planet/jupiter.html" class="link-cr ms-0 ps-0">Ingin tahu tentang Jupiter?
+													Klik di sini!</a>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img src="fig/Saturn.png" class="planet-cr" alt="...">
+											<div class="carousel-caption d-block mb-0 pb-0">
+												<h5 class="text-left text-warning russo-one-regular">Saturnus</h5>
+												<p class="text-left">Saturnus adalah planet keenam dari Matahari<span
+														class="d-none d-md-inline d-lg-none d-xl-inline">, terkenal
+														dengan cincin es dan debunya yang spektakuler. Planet ini
+														sebagian besar
+														terdiri dari gas hidrogen dan helium.</span>.</p>
+												<a href="planet/saturnus.html" class="link-cr ms-0 ps-0">Ingin tahu tentang
+													Saturnus? Klik di sini!</a>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img src="fig/Uranus.png" class="planet-cr" alt="...">
+											<div class="carousel-caption d-block mb-0 pb-0">
+												<h5 class="text-left text-primary russo-one-regular">Uranus</h5>
+												<p class="text-left">Uranus adalah planet ketujuh dari Matahari<span
+														class="d-none d-md-inline d-lg-none d-xl-inline">, dengan
+														atmosfer yang mengandung hidrogen, helium, dan metana, yang
+														memberikan
+														warnanya biru kehijauan. </span>.</p>
+												<a href="planet/uranus.html" class="link-cr ms-0 ps-0">Ingin tahu tentang Uranus?
+													Klik di sini!</a>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img src="fig/Neptune.png" class="planet-cr" alt="...">
+											<div class="carousel-caption d-block mb-0 pb-0">
+												<h5 class="text-left text-primary russo-one-regular">Neptunus</h5>
+												<p class="text-left">Neptunus adalah planet kedelapan dari Matahari<span
+														class="d-none d-md-inline d-lg-none d-xl-inline">, dengan
+														atmosfer yang terdiri dari hidrogen, helium, dan metana,
+														memberikan
+														warnanya biru. Neptunus juga memiliki angin tercepat di tata
+														surya</span>.</p>
+												<a href="planet/neptunus.html" class="link-cr ms-0 ps-0">Ingin tahu tentang
+													Neptunus? Klik di sini!</a>
+											</div>
+										</div>
+									</div>
+									<button class="carousel-control-prev" type="button"
+										data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										<span class="visually-hidden">Previous</span>
+									</button>
+									<button class="carousel-control-next" type="button"
+										data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+										<span class="visually-hidden">Next</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-5 content-section">
+						<div class="h-100 w-100 d-flex align-items-center justify-content-center">
+							<img src="fig/solar-system1.png" alt="Gambar" class="rotating-image  h-100 w-lg-100">
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div id="matahari" class=" cs-2">
+			<div class="row d-flex justify-content-center">
+				<div class="div-judul border-bottom border-3 mt-5">
+					<h1 class="text-center mt-4 russo-one-regular">Matahari</h1>
+				</div>
+
+			</div>
+			<div class="container">
+				<div class="row d-flex align-items-center">
+					<div class="col-lg-5 h-100 d-flex justify-content-center">
+						<img class="w-75 w-lg-100" src="fig/Sun.png" alt="Gambar">
+					</div>
+					<div class="col-lg-7 pe-5 mt-5">
+						<div class="bg-dark px-4 py-3 rounded-4 bg-opacity-50 pb-2">
+							<p>Matahari adalah bintang yang menjadi pusat dari sistem tata surya kita dan sumber energi
+								utama bagi kehidupan di Bumi. Terletak sekitar 150 juta kilometer dari Bumi, Matahari
+								memiliki peran yang sangat penting dalam menjaga suhu dan iklim di planet kita. Dengan
+								ukuran yang sangat besar, sekitar 109 kali diameter Bumi, Matahari mampu menghasilkan
+								energi
+								dalam jumlah yang luar biasa melalui proses nuklir yang terjadi di inti. Energi ini,
+								dalam
+								bentuk cahaya dan panas, menjalar ke seluruh penjuru tata surya, memberi kehidupan bagi
+								segala bentuk kehidupan di Bumi dan memengaruhi banyak fenomena alam seperti cuaca, arus
+								laut, dan pola tumbuh-tumbuhan.</p>
+						</div>
+						<div class="row mt-4">
+							<div class="col-lg-5">
+								<h3 class="russo-one-regular">Ingin melihat fakta menarik mengenai Matahari☀️ ?</h3>
+								<button type="button" class="btn btn-warning mt-3" id="tombolFakta"
+									onclick="toggleFakta()">Klik
+									di sini!</button>
+							</div>
+							<div class="col-lg-7">
+								<div class="">
+									<div class="collapse collapse-horizontal" id="collapseFakta">
+										<div class="card card-body  bg-dark bg-opacity-50 pb-0 ayammm mt-2 mt-lg-0">
+											<p id="fakta" >Klik tombol untuk melihat fakta menarik!</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 mt-4">
+						<div class="border border-2 rounded-3 px-2 pb-2">
+							<div class="p-2 border-bottom border-3 pb-0 mb-2">
+								<h2 class="russo-one-regular">Profil Matahari</h2>
+							</div>
+							<ul class="list-group bg-transparent text-light">
+								<li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Jenis Bintang:</b> G2V
+								</li>
+								<li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Diameter:</b> 1.391.000
+									km
+								</li>
+								<li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Massa:</b> 1,989 x 10³⁰
+									kg
+								</li>
+								<li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Volume:</b> 1,412 x 10¹⁸
+									km³
+								</li>
+								<li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Gravitasi Permukaan:</b>
+									274
+									m/s²</li>
+								<li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Jarak dari Bumi:</b>
+									Rata-rata 149,6 juta km</li>
+								<li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Kecepatan Orbit
+										Galaksi:</b>
+									828.000 km/jam</li>
+								<li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Suhu Inti:</b> Sekitar
+									15
+									juta °C</li>
+								<li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Umur:</b> Sekitar 4,6
+									miliar
+									tahun</li>
+								<li class="list-group-item bg-dark bg-opacity-50 text-light"><b>Energi yang
+										Dipancarkan:</b>
+									3,8 x 10²⁶ watt</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-8 mt-4 h-100">
+						<div class="border border-2 rounded-3 px-2 pb-2  h-100">
+							<div class="p-2 border-bottom border-3 pb-0 mb-2">
+								<h2 class="russo-one-regular">Struktur Lapisan Matahari</h2>
+							</div>
+							<div class="row">
+								<div class="col-6 mt-lg-2">
+									<div class="accordion" id="accordionExample">
+										<div class="accordion-item bg-transparent">
+											<h2 class="accordion-header">
+												<button class="accordion-button py-2 bg-dark bg-opacity-50 text-light"
+													type="button" data-bs-toggle="collapse"
+													data-bs-target="#collapseOne" aria-expanded="true"
+													aria-controls="collapseOne">
+													<b>Inti (Core)</b>
+												</button>
+											</h2>
+											<div id="collapseOne" class="accordion-collapse collapse show"
+												data-bs-parent="#accordionExample">
+												<div class="accordion-body text-light bg-dark bg-opacity-50">
+													<b>Inti:</b> Tempat berlangsungnya reaksi fusi nuklir yang
+													menghasilkan
+													energi dalam jumlah besar, dengan suhu mencapai sekitar 15 juta °C.
+												</div>
+											</div>
+										</div>
+										<div class="accordion-item bg-transparent">
+											<h2 class="accordion-header">
+												<button
+													class="accordion-button collapsed py-2 bg-dark bg-opacity-50 text-light"
+													type="button" data-bs-toggle="collapse"
+													data-bs-target="#collapseTwo" aria-expanded="true"
+													aria-controls="collapseTwo">
+													<b>Zona Radiasi</b>
+												</button>
+											</h2>
+											<div id="collapseTwo" class="accordion-collapse collapse"
+												data-bs-parent="#accordionExample">
+												<div class="accordion-body text-light bg-dark bg-opacity-50">
+													<b>Zona Radiasi:</b> Energi dari inti berpindah ke luar melalui
+													radiasi
+													foton yang memerlukan waktu sangat lama untuk mencapai permukaan.
+												</div>
+											</div>
+										</div>
+										<div class="accordion-item bg-transparent">
+											<h2 class="accordion-header">
+												<button
+													class="accordion-button collapsed py-2 bg-dark bg-opacity-50 text-light"
+													type="button" data-bs-toggle="collapse"
+													data-bs-target="#collapseThree" aria-expanded="true"
+													aria-controls="collapseThree">
+													<b>Zona Konveksi</b>
+												</button>
+											</h2>
+											<div id="collapseThree" class="accordion-collapse collapse"
+												data-bs-parent="#accordionExample">
+												<div class="accordion-body text-light bg-dark bg-opacity-50">
+													<b>Zona Konveksi:</b> Energi bergerak ke permukaan melalui gerakan
+													konveksi gas panas yang naik dan mendingin.
+												</div>
+											</div>
+										</div>
+										<div class="accordion-item bg-transparent">
+											<h2 class="accordion-header">
+												<button
+													class="accordion-button collapsed py-2 bg-dark bg-opacity-50 text-light"
+													type="button" data-bs-toggle="collapse"
+													data-bs-target="#collapseFour" aria-expanded="true"
+													aria-controls="collapseFour">
+													<b>Fotosfer</b>
+												</button>
+											</h2>
+											<div id="collapseFour" class="accordion-collapse collapse"
+												data-bs-parent="#accordionExample">
+												<div class="accordion-body text-light bg-dark bg-opacity-50">
+													<b>Fotosfer:</b> Lapisan yang memancarkan cahaya tampak, terlihat
+													sebagai permukaan Matahari, dengan suhu sekitar 5.500 °C.
+												</div>
+											</div>
+										</div>
+										<div class="accordion-item bg-transparent">
+											<h2 class="accordion-header">
+												<button
+													class="accordion-button collapsed py-2 bg-dark bg-opacity-50 text-light"
+													type="button" data-bs-toggle="collapse"
+													data-bs-target="#collapseFive" aria-expanded="true"
+													aria-controls="collapseFive">
+													<b>Kromosfer</b>
+												</button>
+											</h2>
+											<div id="collapseFive" class="accordion-collapse collapse"
+												data-bs-parent="#accordionExample">
+												<div class="accordion-body text-light bg-dark bg-opacity-50">
+													<b>Kromosfer:</b> Lapisan merah tipis di atas fotosfer, yang tampak
+													selama gerhana Matahari, dengan suhu yang meningkat ke bagian atas.
+												</div>
+											</div>
+										</div>
+										<div class="accordion-item bg-transparent">
+											<h2 class="accordion-header">
+												<button
+													class="accordion-button collapsed py-2 bg-dark bg-opacity-50 text-light"
+													type="button" data-bs-toggle="collapse"
+													data-bs-target="#collapseSix" aria-expanded="true"
+													aria-controls="collapseSix">
+													<b>Corona</b>
+												</button>
+											</h2>
+											<div id="collapseSix" class="accordion-collapse collapse"
+												data-bs-parent="#accordionExample">
+												<div class="accordion-body text-light bg-dark bg-opacity-50">
+													<b>Corona:</b> Lapisan paling luar dari atmosfer Matahari yang
+													sangat
+													panas, hingga 3 juta °C, dan memancar angin Matahari ke luar
+													angkasa.
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-6 mt-lg-2">
+									<img class="rounded-3 w-100" src="fig/Struktur-Matahari.png" alt="Gambar">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-7 mx-0 pt-4 mt-4">
+						<div class="border border-2 rounded-3 px-2 h-100 pb-2">
+							<div class="p-2 border-bottom border-3 pb-0 mb-2">
+								<h2 class="russo-one-regular">Video Edukasi Matahari</h2>
+							</div>
+							<div class="ratio ratio-16x9">
+								<iframe src="https://youtube.com/embed/0HoVj2HdG8U" title="YouTube video"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen class="rounded-3">
+								</iframe>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-5 pt-4 mt-4">
+						<div class="border border-2 rounded-3  pb-2 px-2">
+							<div class="p-2 border-bottom border-3 pb-0 mb-2">
+								<h2 class="russo-one-regular">Artikel Tentang Matahari</h2>
+							</div>
+							<ul class="list-group bg-transparent text-light">
+								<li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+										href="https://www.detik.com/edu/detikpedia/d-6392138/tata-surya-pengertian-teori-dan-anggotanya-dari-matahari-hingga-meteor"
+										class="tulisan-lanjut link-at"><b>Detik.com | </b>Tata Surya: Pengertian, Teori,
+										dan
+										Anggotanya, dari Matahari hingga Meteor</a></li>
+								<li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+										href="https://nationalgeographic.grid.id/read/134098601/matahari-pengertian-ciri-ciri-serta-urutan-lapisan-atau-bagiannya?page=1"
+										class="tulisan-lanjut link-at"><b>NatGeo.id | </b>Matahari: Pengertian,
+										Ciri-ciri, serta Urutan Lapisan atau Bagiannya</a></li>
+								<li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+										href="https://www.zenius.net/blog/matahari"
+										class="tulisan-lanjut link-at"><b>Zenius.net | </b>Mengenal Matahari, Bintang
+										Pusat Tata Surya</a></li>
+								<li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+										href="hhttps://an-nur.ac.id/matahari-karakteristik-struktur-siklus-hidup-dampak-dan-penelitian-terbaru/"
+										class="tulisan-lanjut link-at"><b>An-nur.ac.id | </b>Matahari: Karakteristik,
+										Struktur, Siklus Hidup, Dampak, dan Penelitian Terbaru</a></li>
+								<li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+										href="https://ipa.pelajaran.co.id/matahari/"
+										class="tulisan-lanjut link-at"><b>IPA.pelajaran.co.id | </b>Pengertian Matahari,
+										Karakteristik, Lapisan Penyusun dan Peran Matahari Dalam Tata Surya LENGKAP</a>
+								</li>
+								<li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+										href="https://ruangbelajar.co.id/6380/aktivitas-matahari-sebagai-pusat-tata-surya-penjelasan-lengkap/"
+										class="tulisan-lanjut link-at"><b>ruangbelajar.co.id | </b>Aktivitas Matahari
+										sebagai Pusat Tata Surya: Penjelasan Lengkap</a></li>
+								<li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+										href="https://blogmipa-geografi.blogspot.com/2018/01/matahari.html"
+										class="tulisan-lanjut link-at"><b>BlogMIPA | </b>Matahari: Pengertian,
+										Bagian/Struktur + Gambar, Unsur, Karakteristik, Gangguan, Keadaan, Gerak dan
+										Peranan Bagi Kehidupan</a></li>
+								<li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+										href="https://edukasi.kompas.com/read/2021/09/11/070300971/siswa-yuk-belajar-mengenal-matahari-dalam-tata-surya"
+										class="tulisan-lanjut link-at"><b>Kompas.com | </b>Siswa, Yuk Belajar Mengenal
+										Matahari dalam Tata Surya</a></li>
+								<li class="list-group-item bg-dark bg-opacity-50 text-light"><a
+										href="https://www.faktadot.com/fakta-menarik-tentang-matahari-dari-proses-fusion-hingga-efek-pada-bumi/"
+										class="tulisan-lanjut link-at"><b>Faktadot.com | </b>7 Fakta Menarik Tentang
+										Matahari, Dari Proses Fusion Hingga Efek pada Bumi</a></li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+		<div class="container-fluid cs-2 p-5">
+			<div class="row">
+
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<footer class="text-white text-center">
+        <div class="py-4">
+            <div class="container">
+                <div class="row mb-3">
+                    <div class="col-xl-4">
+                        <h5 class="text-uppercase">Cosmic Team</h5>
+                        <p class="small">kelompok yang berfokus pada pembuatan website edukasi mengenai tata surya.
+                            Bahasa yang digunakan dalam pembuatan website ini meliputi HTML, CSS, dan JavaScript untuk
+                            menambahkan interaktivitas.</p>
+                    </div>
+
+                    <div class="col-xl-8">
+                        <h5 class="text-uppercase">Kontak</h5>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-4 col-6">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <b class="text-decoration-underline">
+                                            Evocati Sibarani
+                                        </b>
+                                        <div class="row mt-3">
+                                            <div class="col-3 ">
+                                                <img class="rounded-3 w-100"
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+                                                    alt="Gambar">
+                                            </div>
+                                            <div class="col-9 d-flex align-items-center ps-0">
+                                                <b>+62 823-8521-3040</b>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-3">
+                                                <img class="rounded-3 w-100"
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png"
+                                                    alt="Gambar">
+                                            </div>
+                                            <div class="col-9 d-flex align-items-center ps-0">
+                                                <b>@evocati_sbr</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-6">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <b class="text-decoration-underline">
+                                            Ririn Avelia
+                                        </b>
+                                        <div class="row mt-3">
+                                            <div class="col-3 ">
+                                                <img class="rounded-3 w-100"
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+                                                    alt="Gambar">
+                                            </div>
+                                            <div class="col-9 d-flex align-items-center ps-0">
+                                                <b>+62 823-9065-3179</b>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-3">
+                                                <img class="rounded-3 w-100"
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png"
+                                                    alt="Gambar">
+                                            </div>
+                                            <div class="col-9 d-flex align-items-center ps-0">
+                                                <b>@ririnavelia</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-6 mt-4 mt-md-0">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <b class="text-decoration-underline">
+                                            Winda Fentika
+                                        </b>
+                                        <div class="row mt-3">
+                                            <div class="col-3 ">
+                                                <img class="rounded-3 w-100"
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png"
+                                                    alt="Gambar">
+                                            </div>
+                                            <div class="col-9 d-flex align-items-center ps-0">
+                                                <b>+62 838-7463-0869</b>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-3">
+                                                <img class="rounded-3 w-100"
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png"
+                                                    alt="Gambar">
+                                            </div>
+                                            <div class="col-9 d-flex align-items-center ps-0">
+                                                <b>@wndfntk</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <hr class="bg-light">
+                <div class="mb-2">
+                    <p class="mb-1">&copy; 2024 Cosmic Team</p>
+                    <p class="mb-1">Dibuat oleh: Evocati Sibarani, Ririn Avelia, Winda Fentika</p>
+                </div>
+                <div>
+                    <p class="mb-0 font-italic">"Jelajahi keindahan tata surya kita, karena langit bukanlah batas,
+                        melainkan awal dari petualangan."</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+	<div id="content2" class="content"></div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="typing.js"></script>
+	<script src="funfact.js"></script>
+	<script src="scrollNav.js"></script>
+	<script>
+		const faktaMenarik = [
+    "Matahari Adalah Bintang Raksasa Matahari merupakan bola plasma panas yang terdiri dari hidrogen (sekitar 74%) dan helium (sekitar 24%), dengan unsur-unsur berat lainnya dalam jumlah kecil.",
+    "Sebagian besar massa Tata Surya terpusat di Matahari. Dengan massa sekitar 1,989 × 10³⁰ kilogram, Matahari memegang gravitasi yang cukup kuat untuk menjaga planet, komet, dan asteroid tetap berada dalam orbitnya.",
+    "Meskipun cahaya Matahari bergerak dengan kecepatan 300.000 km/detik, jarak 149,6 juta kilometer antara Bumi dan Matahari menyebabkan energi tersebut membutuhkan waktu lebih dari 8 menit untuk mencapai kita.",
+    "Aktivitas Matahari, seperti jumlah bintik Matahari dan semburan Matahari, mengikuti siklus reguler yang berlangsung sekitar 11 tahun. Ketika aktivitas berada di puncaknya, gangguan magnetik lebih sering terjadi, yang dapat memengaruhi komunikasi satelit di Bumi.",
+    "Dalam sekitar 5 miliar tahun, Matahari akan kehabisan hidrogen di intinya. Ketika itu terjadi, Matahari akan berkembang menjadi raksasa merah, menelan planet terdekat seperti Merkurius dan Venus, dan mungkin bahkan Bumi.",
+    "Energi dari Matahari menjadi sumber utama kehidupan di Bumi. Melalui proses fotosintesis, tumbuhan mengubah energi Matahari menjadi makanan yang mendukung rantai makanan global. Matahari juga menjaga suhu Bumi agar tetap stabil.",
+    "Energi yang dihasilkan melalui reaksi fusi di inti Matahari membutuhkan waktu ribuan hingga jutaan tahun untuk mencapai permukaan karena kepadatan tinggi di dalamnya. Setelah mencapai permukaan, energi tersebut melesat ke Bumi hanya dalam hitungan menit.",
+    "Gravitasi Matahari sangat kuat, sekitar 28 kali gravitasi Bumi. Gravitasi inilah yang menjaga planet, bulan, komet, dan asteroid tetap dalam orbit mereka, membentuk Tata Surya yang stabil selama miliaran tahun.",
+    "Seperti Bumi, Matahari juga berputar pada porosnya. Namun, karena merupakan bola gas, kecepatan rotasinya bervariasi. Di ekuator, Matahari berotasi setiap 25 hari, sementara di kutub, butuh sekitar 35 hari untuk berputar penuh.", 
+    "Salah satu misteri besar Matahari adalah kenapa lapisan luar atmosfernya, yang disebut corona, memiliki suhu hingga jutaan derajat Kelvin, jauh lebih panas dibandingkan suhu permukaannya yang hanya sekitar 5.500°C.",
+];
+
+	</script>
+</body>
+
+</html>

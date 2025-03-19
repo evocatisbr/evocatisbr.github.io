@@ -15,14 +15,14 @@
 </head>
 
 <body>
-    <div class="container-fluid bg-info">
-        <div class="row bg-warning head">
-            <div class="col-9 d-flex align-items-center">
-                <a class="fs-2 title">Integrated Classroom</a>
+    <div class="container-fluid">
+        <div class="row bg-primary head">
+            <div class="col-8 d-flex align-items-center">
+                <a class="fs-2 title text-light text-outline">Integrated Classroom</a>
             </div>
-            <div class="col-3 h-100">
-                <div class="row h-100 py-1">
-                    <div class="col py-2 d-flex h-100 justify-content-center bg-light tlogo gap-2">
+            <div class="col-4 h-100  d-flex justify-content-end">
+                <div class="row h-100 py-1 btlogo">
+                    <div class="col py-2 d-flex h-100 justify-content-between bg-light tlogo">
                         <img class="logo" src="Logo-TWH.png" alt="TWH">
                         <img class="logo" src="LOGO-UNRI.png" alt="UNRI">
                         <img class="logo" src="unggul.png" alt="Unggul">
@@ -34,23 +34,23 @@
             </div>
         </div>
         <div class="row tengah">
-            <div class="col-4 bg-primary">
-
+            <div class="col-4 d-flex align-items-end justify-content-center">
+                <img class="orang" src="DSC_5790-removebg-preview.png" alt="orang">
             </div>
-            <div class="col-8 ctabel">
+            <div class="col-8">
                 <div class="row">
-                    <div class="col align-items-center d-flex">
-                        <div class="bg-success m-4 p-2 rounded-5 text-center d-inline-block">
-                            <a class="fs-3 title2 dark-glow">Jadwal Perkuliahan Integrated Classroom</a>
+                    <div class="col d-flex justify-content-center">
+                        <div class="m-4 mb-2 p-2 rounded-5 text-center">
+                            <a class="title2 mx-2 no-wrap text-warning">Jadwal Perkuliahan Integrated Classroom</a>
                         </div>
                         
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
+                    <div class="col mx-5">
                         <table class="table table-bordered text-center table-glow table-thick-border">
                             <thead>
-                                <tr>
+                                <tr class="text-warning">
                                     <th>Jam</th>
                                     <th>Kode</th>
                                     <th>Mata Kuliah</th>
@@ -59,76 +59,35 @@
                                 </tr>
                             </thead>
                             <tbody id="table-body">
-                                <!-- Isi tabel akan di-generate dengan JavaScript -->
                             </tbody>
                         </table>
+                        <div class="loading-container">
+                            <div class="loading-bar" id="loading-bar"></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row foot">
-            <div class="col-11">
-                <a>berita</a>
+        <div class="row foot bg-primary">
+            <div class="col-9 footer fs-6 fw-bold d-flex align-items-center">
+                            <div class="d-flex justify-content-between align-items-center breaking-news text-light text-outline">
+                                <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"> 
+                                    <span>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </span> 
+                                    <span class="dot"></span> 
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut </span> 
+                                    <span class="dot"></span> 
+                                    <span>Duis aute irure dolor in reprehenderit in voluptate velit esse </span>
+                                </marquee>
+                            </div>
             </div>
-            <div class="col-1 bg-dark">
-                <a class="text-danger">jam</a>
+            <div class="col-3 bg-light text-primary d-flex justify-content-center align-items-center">
+                <div class="jam-digital" id="jam-digital" ></div>
             </div>
         </div>
     </div>
-    <script>
-        // Data Dummy
-        const data = [];
-        for (let i = 1; i <= 24; i++) {
-            data.push({ Jam: `${i}`, Kode: `${20 + i}`, MataKuliah: `Mata Kuliah ${i}`, Ruangan: `Ruangan ${i}`, Dosen: `Dosen ${i}` });
-        }
-
-        const rowsPerPage = 8; // Tampilkan 5 baris per halaman
-        let currentIndex = 0;
-        const tbody = document.getElementById("table-body");
-
-        function updateTable() {
-            // Tambahkan efek keluar (geser ke kiri)
-            tbody.classList.add("slide-out");
-
-            setTimeout(() => {
-                tbody.innerHTML = ""; // Kosongkan tabel sebelum mengganti data baru
-                tbody.classList.remove("slide-out"); // Hapus animasi keluar
-
-                // Tambahkan efek masuk dari kanan
-                tbody.classList.add("slide-in");
-
-                for (let i = currentIndex; i < currentIndex + rowsPerPage && i < data.length; i++) {
-                    let row = `<tr>
-                    <td>${data[i].Jam}</td>
-                    <td>${data[i].Kode}</td>
-                    <td>${data[i].MataKuliah}</td>
-                    <td>${data[i].Ruangan}</td>
-                    <td>${data[i].Dosen}</td>
-                </tr>`;
-                    tbody.innerHTML += row;
-                }
-
-                // Perbarui indeks untuk halaman berikutnya
-                currentIndex += rowsPerPage;
-                if (currentIndex >= data.length) {
-                    currentIndex = 0; // Kembali ke awal jika sudah mencapai akhir
-                }
-
-                // Tambahkan efek masuk (geser ke kiri dari kanan)
-                setTimeout(() => {
-                    tbody.classList.remove("slide-in");
-                    tbody.classList.add("visible");
-                }, 50);
-
-            }, 500); // Waktu sinkronisasi dengan animasi keluar
-        }
-
-        // Tampilkan data pertama kali
-        updateTable();
-
-        // Ubah tabel setiap 15 detik
-        setInterval(updateTable, 3000);
-    </script>
+    <script src="tabel.js"></script>
+    <script src="jam.js"></script>
+    <script src="berita.js"></script>
 </body>
 
 </html>
